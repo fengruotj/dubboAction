@@ -26,7 +26,7 @@
     <!--<dubbo:protocol name="dubbo" port="20890" dispatcher="all" threadpool="fixed" threads="10" />-->
 
     <!--注意这里，我们在使用DependenceService的时候，这个服务可能依赖于某一个服务，比如说SampleService  生成远程服务代理，可以像使用本地bean一样使用demoService 检查级联依赖关系，默认为true 当有依赖的时候，需要根据需求进行设置 -->
-    <dubbo:reference id="sampleService" interface="com.basic.dubbo.direct.provider.SampleService" check="false"/>
+    <dubbo:reference id="sampleService" interface="com.basic.dubbo.direct.provider.SampleService" check="true"/>
 
     <!--声明需要暴露的服务接口 写操作可以设置retries=0 避免重复调用SOA服务 retries重试次数-->
     <dubbo:service interface="com.basic.dubbo.dependency.provider.DependencyService" ref="dependencyService" retries="0"/>

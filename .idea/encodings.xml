@@ -4,6 +4,8 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubboconsumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubboprovider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubboxconsumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubboxprovider" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

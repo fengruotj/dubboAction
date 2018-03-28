@@ -8,12 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dubboconsumer" />
         <module name="dubboprovider" />
+        <module name="dubboxprovidr" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dubboAction" target="1.5" />
       <module name="dubboconsumer" target="1.5" />
       <module name="dubboprovider" target="1.5" />
+      <module name="dubboxconsumer" target="1.5" />
+      <module name="dubboxprovider" target="1.5" />
+      <module name="dubboxprovidr" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
