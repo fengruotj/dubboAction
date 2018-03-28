@@ -12,9 +12,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="dubboAction" target="1.5" />
-      <module name="dubboconsumer" target="1.5" />
-      <module name="dubboprovider" target="1.5" />
+      <module name="dubboAction" target="1.7" />
+      <module name="dubboconsumer" target="1.7" />
+      <module name="dubboprovider" target="1.7" />
       <module name="dubboxconsumer" target="1.5" />
       <module name="dubboxprovider" target="1.5" />
       <module name="dubboxprovidr" target="1.5" />
